@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+    body {
+    background-color: #6F1A07;
+    color: #F7F3E3;
+    text-align: center;
+	font-family: Italiana, sans-serif;
+    }
+    img {
+    margin-top: 100px;
+    margin-right: 50px;
+    }
+	footer {
+	margin-top: 100px;
+	}
+    #myNumber{
+    font-size:100px;
+    text-align:center;
+    font-family:Italiana, sans-serif;
+    }
+    .home {
+    position:relative; right:268px; top:18px;
+    font-size: 25px;
+    color: #AF9164;
+    }
+    .menu {
+    position:relative; left:268px; top:18px;
+    font-size: 25px;
+    color: #AF9164;
+    }
+	h1 {
+	font-size: 50px;
+	margin-bottom: 100px;
+	}

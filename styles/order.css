@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+    body {
+    background-color: #6F1A07;
+    color: #F7F3E3;
+    text-align: center;
+    video {
+    display: block;
+    margin: 0 auto;
+    }
+    }
+    footer {
+    margin-top: 70px;
+    margin-bottom: 25px;
+    }
+    p {
+    font-size: 25px;
+    margin-left: 300px;
+    margin-right: 300px;
+    }
+    img {
+    margin-top: 50px;
+    margin-right: 50px;
+    }
+    .home {
+    position:relative; bottom:55px; right:270px;
+    font-size: 25px;
+    color: #AF9164;
+    }
+    .menu {
+    position:relative; bottom:55px; left:270px;
+    font-size: 25px;
+    color: #AF9164;
+    }
+    h1 {
+    font-family: Italiana, sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 3px grey;
+    }
+    form {
+    display: flex;
+    flex-direction: column;
+    background: #AF9164;
+    margin: 0 auto 2em;
+    border-radius: 1em;
+    padding: 1em 0;
+    }
+    input, 
+    textarea {
+    border: none;
+    padding: .5em;
+    border-radius: .25em;
+    }
+    input:focus,
+    input:hover,
+    textarea:focus,
+    textarea:hover {
+    background: seashell;
+    outline: none;
+    }
+    input[type="checkbox"],
+    input[type="checkbox"] {
+    margin-right: .25em;
+    width: 1em;
+    height: 1em;
+    }
+    fieldset {
+    border: none;
+    margin: .5em;
+    }
+    legend {
+    font-family: Italiana, sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+    padding-bottom: .5em;
+    }
+    label,
+    .button {
+    font-family: Italiana, sans-serif;
+    }
+    .button {
+    box-shadow: 1px 1px 3px black;
+    border-radius: 5px;
+    background-color: #6F1A07;
+    font-size: 1em;
+    align-self: center;
+    padding: .7em;
+    color: black;
+    }
+    .button:hover {
+    cursor: pointer;
+    background: #6F1A07;
+    color: white;
+    box-shadow: inset 2px 2px 5px 0px black;
+    }
+    #name,
+    #mail,
+    #phone,
+    textarea {
+    margin: .5em 0;
+    box-shadow: 1px 1px 2px grey;
+    }
+    .order {
+    display: none;
+    text-align: center;
+    }
+    img {
+    max-width: 100%;
+    }
+    @media (min-width: 550px) {
+    form {
+    max-width: 50%;
+    }
+    }

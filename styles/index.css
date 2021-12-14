@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+  body {
+  font-family: Italiana, sans-serif;
+  background-color: #6F1A07;
+  color: #F7F3E3;
+  text-align: center;
+  }
+  video {
+  display: block;
+  margin: 0 auto;
+  }
+  }
+  footer {
+  margin-top: 100px;
+  margin-bottom: 25px;
+  text-shadow: 2px 2px 3px black;
+  }
+  p {
+  font-size: 25px;
+  margin-left: 300px;
+  margin-right: 300px;
+  text-shadow: 2px 2px 3px black;
+  }
+  img {
+  margin-top: 50px;
+  margin-right: 50px;
+  }
+  .menu {
+  position:relative; bottom:55px; right:225px;
+  font-size: 25px;
+  color: #AF9164;
+  }
+  .order {
+  position:relative; bottom:55px; left:300px;
+  font-size: 25px;
+  color: #AF9164;
+  }
+  h1 {
+  text-shadow: 2px 2px 3px grey;
+  }
