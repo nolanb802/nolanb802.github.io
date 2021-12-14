@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Place Order</title>
+   <link rel="stylesheet" href="../Styles/order.css">
+</head>
+<body>
+  <h1>Place an Order For Pickup</h1>
+  <nav>
+    <a href="index.html" class="home">Home</a>
+    <a href="menu.html" class="menu">Menu</a>
+  </nav>
+  <main>
+  <div class="main">
+    <form action="confirm.html">
+      <fieldset>
+        <legend>Your Info:</legend>
+		<div>
+          <label for="name">Name:</label><br>
+          <input type="text" id="name" name="user_name" required><br>
+		</div>
+		<div>
+          <label for="mail">Email:</label><br>
+          <input type="email" id="mail" name="user_email" required><br>
+		</div>
+		<div>
+          <label for="phone">Phone:</label><br>
+          <input type="tel" id="phone" name="user_tel" required><br>
+		</div>
+		<div>
+          <label for="address">Address:</label><br>
+          <textarea required></textarea>
+		</div>
+      </fieldset>
+      <fieldset>
+        <legend>Pizza Choice:</legend>
+        <input type="checkbox" id="marg" name="pizza"><label>Margheritah</label><br>
+        <input type="checkbox" id="sara" name="pizza"><label>Saratogah</label><br>
+        <input type="checkbox" id="grand" name="pizza"><label>Grandmothah</label><br>
+        <input type="checkbox" id="grek" name="pizza"><label>Greek</label><br>
+        <input type="checkbox" id="redp" name="pizza"><label>Red Peppah</label><br>
+        <input type="checkbox" id="neap" name="pizza"><label>Neapolitan</label><br>
+        <input type="checkbox" id="chic" name="pizza"><label>Chicken Fiorentinah</label><br>
+        <input type="checkbox" id="arug" name="pizza"><label>Arugulah Speck</label><br>
+      </fieldset>
+      <input class="button" type="submit" value="Place Order" onclick="submitForm()">
+    </form>
+</div>
+</main>
+</body>
+<footer>
+  <h2>Contact</h2>
+  <strong>Address: 119 Starbird Road, Jericho VT 05465 | Phone Number: 802-861-0832 | Email Address: contact@mamamias.com</strong>
+</footer>
+</html>

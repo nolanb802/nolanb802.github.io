@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mama Mia's</title>
+  <meta charset="UTF-8">
+<link rel="stylesheet" href="../Styles/confirm.css">
+    <nav>
+    <a href="index.html" class="home">Home</a>
+    <a href="menu.html" class="menu">Menu</a>
+  </nav>
+</head>
+<body onload="showRandomNumber();">
+<h1>Order Confirmed!</h1>
+<h2>Order Number:</h2>
+
+<main>
+<script src="https://randojs.com/1.0.0.js"></script>
+<script>
+function showRandomNumber(){
+document.getElementById("myNumber").innerHTML = rando(1000, 9999);
+}
+</script>
+<div id="myNumber"></div>
+<img srcset="../Images/logo500w.png 500w, ../Images/logo250w.png 250w" src="../Images/logo500w.png" sizes="(max-width: 500px) 250px, 500px" alt="Mama Mia Logo">
+</main>
+</body>
+<footer>
+<h2>Contact</h2>
+<strong>Address: 119 Starbird Road, Jericho VT 05465 | Phone Number: 802-861-0832 | Email Address: contact@mamamias.com</strong>
+</footer>
+</html>
